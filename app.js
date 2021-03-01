@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 }))
 
 mailchimp.setConfig({
-  apiKey: "6070f2ab82cf347f1988286e902ec9f-us1",
+  apiKey: "a6070f2ab82cf347f1988286e902ec9f-us1",
   server: "us1"
 });
 
