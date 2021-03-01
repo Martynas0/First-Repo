@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
+var port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({
@@ -38,6 +39,6 @@ app.post("/signup", function(req, res) {
 
 
 
-       app.listen(process.env.PORT || 3000, function() {
+       app.listen(port, function() {
       console.log("Server is Live !");
     })
