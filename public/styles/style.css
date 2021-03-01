@@ -1,0 +1,50 @@
+body {
+  background-color: #2a2929;
+  padding: 4.5% 13%;
+}
+h1{
+  font-family: "Anton", sans-serif;
+  float: left;
+  margin-top: 50px;
+}
+h3{
+  font-family: "Bebas Neue", Cursive;
+  position: relative;
+  left: 90px;
+}
+pre{
+ position: relative;
+ left: 160px;
+}
+blockquote{
+  margin: 0;
+  font-size: 1.2rem;
+}
+.form-div{
+  padding: 10% 20% 7% 20%;
+}
+.form-control{
+  background-color: #e7e6ff;
+}
+.btn{
+  width: 90%;
+  background-color: #3a556a;
+}
+.image{
+  height: 600px;
+  background-image: url("/images/left-image.jpg");
+  background-size: cover;
+  border-right: 1px solid white;
+  border-radius: 10px 0 0 10px;
+}
+.sign-up{
+  text-align: center;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+.icon{
+  height: 150px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 25px;
+}
